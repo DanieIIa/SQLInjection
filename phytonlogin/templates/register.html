@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='login.css')}}">
+
+</head>
+<body>
+
+
+    <div class="login">
+      <div class="login-triangle"></div>
+
+      <h2 class="login-header">Sign up</h2>
+
+      <form class="login-container" method="POST" action="/register">
+        <p><input type="text" name="username" id="username" placeholder="Username"></p>
+        <p><input type="password" name="password" id="password" placeholder="Password"></p>
+          <p><input type="email" name="email" id="email" placeholder="Email"></p>
+        <p><input type="submit" value="Sign up"></p>
+      </form>
+    </div>
+
+
+
+
+</body>
+</html>

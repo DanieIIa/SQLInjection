@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Successful login</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='datas.css')}}">
+</head>
+<body>
+    <div >
+        <h1 class="succes">Successful login</h1>
+    </div>
+
+    <div class="container">
+        <p>Personal data:</p>
+        <table border="1">
+            <tr class>
+                <th>Name</th>
+                <th>Password</th>
+                <th>Email</th>
+            </tr>
+            {% for user in users %}
+            <tr>
+                <td>{{ user[0] }}</td>
+                <td>{{ user[1] }}</td>
+                <td>{{ user[2] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>
+</html>

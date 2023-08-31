@@ -1,0 +1,37 @@
+body {
+  font-family: 'lato', sans-serif;
+  background: #456;
+  color: #FFFFFF;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.succes{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40%;
+}
+h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+  small {
+    font-size: 0.5em;
+  }
+}
+table{
+    width: 100%;
+}
+td{
+    width: 33%;
+    text-align: center;
+    padding: 3%;
+}
+th{
+    background: #28d;
+    padding: 3%;
+}
